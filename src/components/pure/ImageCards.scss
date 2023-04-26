@@ -1,0 +1,29 @@
+@import "../../styles//Variables.scss";
+
+.main-container{
+   margin: 10vh 20vh 10vh 25vh
+}
+
+.thumbnail{
+    width: 13vh;
+    height: 13vh;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.active{
+    border: 2px solid $orange;
+    opacity: 30%;
+
+}
+.main-pic{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.image-selector{
+    display: flex;
+    justify-content: space-between;
+}
