@@ -77,7 +77,7 @@
   display: flex;
   align-items: center;
   padding: 2vh 6vw;
-  border-radius: 10px;
+  border-radius: 8px;
   cursor: pointer;
   background-color: hsl(26, 100%, 55%);
   color: hsl(0, 0%, 100%);

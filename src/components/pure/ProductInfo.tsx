@@ -3,12 +3,20 @@ import CartIcon from "../../assets/icon-cart.svg";
 import plusIcon from "../../assets/icon-plus.svg";
 import minusIcon from "../../assets/icon-minus.svg";
 import "./ProductInfo.css";
+import { useCart } from "../../hooks/useCart";
 
 const ProductInfo = () => {
   const [quantity, setQuantity] = useState(0);
+  const { cartState, addProduct } = useCart();
   const handleQuantities = (value: number) => {
     if (quantity + value >= 0) {
       setQuantity((prevValue) => prevValue + value);
+    }
+  };
+
+  const handleCart = () => {
+    for (let index = 0; index < quantity; index++) {
+      addProduct({ name: "Fall limited Edition Sneakers", price: 125 });
     }
   };
   return (
@@ -36,7 +44,7 @@ const ProductInfo = () => {
           <h6>{quantity}</h6>
           <img onClick={() => handleQuantities(1)} src={plusIcon} alt="plus" />
         </div>
-        <button className="add-btn">
+        <button className="add-btn" onClick={handleCart}>
           <img src={CartIcon} alt="Cart"></img>
           <p>Add to cart</p>
         </button>
