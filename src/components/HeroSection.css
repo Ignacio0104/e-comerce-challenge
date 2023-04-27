@@ -1,3 +1,9 @@
 .hero-container {
   display: flex;
+}
+
+@media screen and (max-width: 375px) {
+  .hero-container {
+    display: block;
+  }
 }/*# sourceMappingURL=HeroSection.css.map */

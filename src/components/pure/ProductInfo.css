@@ -90,4 +90,12 @@
   margin-right: 12px;
   width: 2.5vh;
   height: 2vh;
+}
+
+@media screen and (max-width: 375px) {
+  .info-container {
+    margin-top: 0vh;
+    margin-right: 0vw;
+    padding: 10px 20px;
+  }
 }/*# sourceMappingURL=ProductInfo.css.map */

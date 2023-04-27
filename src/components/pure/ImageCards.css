@@ -24,4 +24,37 @@
 .image-selector {
   display: flex;
   justify-content: space-between;
+}
+.image-selector button {
+  display: none;
+}
+
+@media screen and (max-width: 375px) {
+  .main-container {
+    margin: 0vh 0vh;
+  }
+  .thumbnail {
+    display: none;
+  }
+  .main-pic {
+    border-radius: 0px;
+    width: 100vw;
+    height: 60vh;
+  }
+  .image-selector button {
+    display: flex;
+    position: absolute;
+    top: 40vh;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .image-selector button img {
+    height: 10px;
+  }
+  .image-selector .prev-btn {
+    right: 90vw;
+  }
+  .image-selector .next-btn {
+    left: 90vw;
+  }
 }/*# sourceMappingURL=ImageCards.css.map */

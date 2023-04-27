@@ -63,7 +63,8 @@
     justify-content: space-between;
     font-size: 16px;
     padding-bottom: 4vh;
-    border-bottom: 1px solid rgb(203, 199, 199);
+    margin: 3vh 10vw 0vh 10vw;
+    border-bottom: 0px;
   }
   .header-links > * {
     display: none;
