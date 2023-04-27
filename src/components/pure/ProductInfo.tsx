@@ -32,7 +32,6 @@ const ProductInfo = () => {
         <h3>$125.00</h3>
         <h4>50%</h4>
       </div>
-
       <p className="slashed-price">$250.00</p>
       <div className="button-container">
         <div className="quantity-controls">
