@@ -59,13 +59,13 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     .header-container{
         display: flex;
         justify-content: space-between;
         font-size: 16px;
         padding-bottom: 4vh;
-        margin: 3vh 10vw 0vh 10vw;
+        margin: 3vh 5vw 0vh 5vw;
         border-bottom: 0px;
     }
     .header-links > *{

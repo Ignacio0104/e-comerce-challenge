@@ -92,7 +92,7 @@
   height: 2vh;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   .info-container {
     margin-top: 0vh;
     margin-right: 0vw;
@@ -100,6 +100,7 @@
   }
   .button-container {
     display: block;
+    padding-bottom: 40px;
   }
   .quantity-controls {
     padding: 3vh 10px;

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+.menu-container-resp {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 50vw;
+  z-index: 100;
+  padding: 20px 0px 0px 20px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.menu-links {
+  padding: 25px 5px;
+  list-style: none;
+}
+.menu-links li {
+  margin-bottom: 10px;
+}
+.menu-links li > * {
+  text-decoration: none;
+  margin: 1.2vw;
+  font-size: 14px;
+  color: hsl(220, 13%, 13%);
+  font-weight: bold;
+}/*# sourceMappingURL=ResponsiveMenu.css.map */

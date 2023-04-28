@@ -78,7 +78,7 @@
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     .cart-menu{
         border: 1px solid black;
         margin:  8vh 9vw;
@@ -90,4 +90,24 @@
         -moz-box-shadow: 1px 10px 13px -1px rgba(0,0,0,0.33);
         box-shadow: 1px 10px 13px -1px rgba(0,0,0,0.33);
     }
+
+    .product-container{
+        display: flex;
+        padding: 1px;
+        .product-pic{
+            width: 10vw;
+        }
+
+        .trash-icon{
+            width: 3vw;
+        }
+    }
+
+    .checkout-btn{
+        display: flex;
+        justify-content: center;
+        width: 60vw;
+    }
+    
+
 }

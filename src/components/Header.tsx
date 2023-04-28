@@ -7,7 +7,11 @@ import { useState } from "react";
 import CartModal from "./pure/CartModal";
 import BurgerMenu from "../assets/icon-menu.svg";
 
-const Header = () => {
+interface HeaderProps {
+  menu: (bool: boolean) => void;
+}
+
+const Header = (props: HeaderProps) => {
   const { cartState } = useCart();
   const [showCartMenu, setShowCartMenu] = useState(false);
 
@@ -15,7 +19,11 @@ const Header = () => {
     <div className="header-container">
       <div className="header-text">
         <div className="burger-menu-container">
-          <img src={BurgerMenu} alt="menu"></img>
+          <img
+            src={BurgerMenu}
+            alt="menu"
+            onClick={() => props.menu(true)}
+          ></img>
         </div>
         <div className="header-title">
           <h2>sneakers</h2>
